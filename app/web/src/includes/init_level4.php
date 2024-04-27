@@ -11,7 +11,7 @@ array_push($qs, 'insert into `database`.`level4_articles` (title, content) value
 array_push($qs, 'insert into `database`.`level4_articles` (title, content) values ("I also love my blog", "I am a little dev and I am learning to create my own blog right now :D")');
 array_push($qs, 'drop table if exists `database`.`level4_users`');
 array_push($qs, 'create table `database`.`level4_users` (username text, password text)');
-array_push($qs, 'insert into `database`.`level4_users` (username, password) values ("admin", "Visit -> yAy_l3veL5.php !")');
+array_push($qs, 'insert into `database`.`level4_users` (username, password) values ("admin", "Visit -> f05c8652de134d5c50729fa1b31d355b.php !")');
 
 foreach($qs as $q) {
     $db -> query($q);

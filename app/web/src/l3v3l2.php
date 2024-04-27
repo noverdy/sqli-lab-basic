@@ -8,7 +8,6 @@ include 'includes/head.php';
 <h1>Level 2</h1>
 
 <p class="synopsis">You went into a login page, where a user can get its email address by giving its username and password. You heard that the password of the administrator is interesting.</p>
-<!-- If only I could COMMENT out this bad sentence... -->
 
 <form method="post">
     <input type="text" name="username" placeholder="username" required>

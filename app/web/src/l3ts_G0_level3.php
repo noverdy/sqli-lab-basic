@@ -8,14 +8,12 @@ include 'includes/head.php';
 <h1>Level 3</h1>
 
 <p class="synopsis">This is a nice online shop there, maybe something is hidding ?</p>
-<!-- Have you heard about UNION between two person ? -->
 
 <form method="post">
     <input type="text" name="product" placeholder="Gamer...">
     <input class="button small green" type="submit" value="Get prices">
 </form>
 
-<!-- SELECT product, price FROM level3_products WHERE product LIKE '%$input%' -->
 <?php
 
 if(isset($_POST["product"])) {
@@ -36,6 +34,5 @@ if(isset($_POST["product"])) {
 ?>
 
 <p>Login is disabled for the moment. But you can still buy our awesome products !</p>
-<!-- SELECT username, password FROM level3_users WHERE username='$input' AND password='$input2' -->
 
 <?php include 'includes/footer.php'; ?>

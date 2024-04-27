@@ -8,7 +8,6 @@ include 'includes/head.php';
 <h1>Level 4</h1>
 
 <p class="synopsis">This is a nice little blog, you can read some articles. But maybe you can do more ?</p>
-<!-- The European UNION is not the same as the Soviet UNION. -->
 
 <h2>Select an article :</h2>
 <div class="list">

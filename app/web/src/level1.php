@@ -8,7 +8,6 @@ include 'includes/head.php';
 <h1>Level 1</h1>
 
 <p class="synopsis">I don't remember my passwords for some sites, so I store them in a database. But I am not dumb, in order to retrieve a password I must enter the name of the website.</p>
-<!-- You don't really need any COMMENT about the page. -->
 
 <form method="post">
     <input type="text" name="website" placeholder="mail.google.com">
