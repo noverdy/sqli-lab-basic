@@ -21,8 +21,6 @@ services:
             - MYSQL_DATABASE=database
         volumes:
             - ./app/db:/docker-entrypoint-initdb.d
-        ports:
-            - "3307:3306"
         networks:
             backend:
                 ipv4_address: 172.18.0.3

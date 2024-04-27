@@ -4,7 +4,7 @@ class Config {
     static $db = "database";
     static $user = "root";
     static $pass = "p4ssw0rd";
-    static $host = "db:3307";
+    static $host = "db";
 }
 
 ?>
